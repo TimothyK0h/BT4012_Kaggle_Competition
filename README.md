@@ -18,7 +18,7 @@ Download the competition files and place them in a folder named `data` next to t
 data/
 ├── train.csv
 ├── test.csv
-├── txs_edgelist.csv
+└── txs_edgelist.csv
 ```
 
 ## Running
@@ -34,4 +34,4 @@ Sections 1–7 produce both submissions; section 8 is evaluation only and can be
 
 All random seeds are fixed, so rerunning the notebook gives the same files every time, and `submission_16.csv` matches the file I submitted.
 
-*Note: submission_7 was selected as my second final submission by mistake (I had intended LightGBM on stable features); this did not affect my final result, since submission_16 scored highest on both leaderboards out of all my submission. Sumbission_7 comes from an earlier version of this notebook, when I was experimenting with averaging over different numbers of seeds and with the model settings, and its seeds were not fixed, so the reproduced file differs slightly from the original.
+*Note: submission_7 was selected as my second final submission by mistake (I had intended LightGBM on stable features); this did not affect my final result, since submission_16 scored highest on both leaderboards out of all my submissions. Submission_7 comes from an earlier version of this notebook, when I was experimenting with averaging over different numbers of seeds and with the model settings, and its seeds were not fixed, so the reproduced file differs slightly from the original.
